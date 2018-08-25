@@ -1,5 +1,4 @@
-## Welcome to GitHub Pages
-
+## Welcome to Purified Overseer's Commands!
 You can use the [editor on GitHub](https://github.com/Purityyyyy/purified.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
@@ -8,30 +7,73 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Purityyyyy/purified.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Fun Commands: ------------
+1.) =hug <user> 
+2.) =kiss <user> 
+3.) =pat <user> 
+4.) =slap <user> 
+5.) =snipe <user> 
+6.) =meme 
+7.) =neko 
+8.) =lmao 
+9.) =dance 
+10.) =shoot <user> 
+11.) =throw <user> 
+12.) =cuddle <user> 
+13.) =avatar <user> 
+14.) =f | Pay respects
+15.) =tickle <user> 
+16.) =add <number number>
+17.) =poke <user>
+18.) =gasm
+18.) =owo
+19.) =awoo
+19.) =blush
+20.) =cry
+21.) =nom | ^w^
+22.) =dab | <o/
+23.) =poi
+24.) =sleepy
+25.) =greet | o/
+26.) =punch
+27.) =cat | =^v^=
+28.) =dog
+29.) =squish
+30.) =meow | meow <3
+31.) =jojo
+  ------------
+Support Menu: ------------
+1.) =help 
+2.) =support 
+3.) =about 
+4.) =founder
+  ------------
+Server Menu:
+1.) =info <user> 
+2.) =joined <user> 
+3.) =ping 
+4.) =serverinfo 
+5.) =owner 
+  ------------
+Mod Menu:
+1.) =kick <user> 
+2.) =ban <user> 
+3.) =hugban <user> | Softban deletes 7 days of msgs 
+4.) =ahelp | Admin help menu
+  ------------
+Bot Menu:
+1.) =upvote 
+2.) =users 
+3.) =guilds 
+4.) =invite
+5.) =donate
+  ------------
+```
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Hello!
+Submit ideas to Mamá Bravery#814$ on Discord.
+The main caste is located [here](https://discord.gg/D3sqgYB)
+You can support me on paypal [here](https://www.paypal.me/zPurityy)
