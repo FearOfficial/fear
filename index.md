@@ -67,6 +67,6 @@ Bot Menu:
 ### Support or Contact
 
 Hello!
-Submit ideas to Mamá Bravery#814$ on Discord.
+Submit ideas to Mamá Bravery#8144 on Discord.
 The main caste is located [here](https://discord.gg/D3sqgYB)
 You can support me on paypal [here](https://www.paypal.me/zPurityy)
