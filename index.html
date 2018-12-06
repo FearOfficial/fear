@@ -50,6 +50,28 @@ body, html {
         min-height: 400px;
     }
 }
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid #030000;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+a:hover, a:active {
+  background-color: #030000; /* Green */
+  color: white;
+}
+
 </style>
 <body>
 
@@ -63,7 +85,8 @@ body, html {
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> COMMANDS</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-    <a href="#patreon" class="w2-bar-item w3-button w3-hide-small"><i class="fa fa-dollar"></i> PATREON</a>
+    <a href="#patreon" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-dollar"></i> PATREON</a>
+    <a href="#partners" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-handshake-o"></i> PARTNERS</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
     </a>
@@ -75,6 +98,7 @@ body, html {
     <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
     <a href="#patreon" class="w3-bar-item w3-button" onclick="toggleFunction()">PATREON</a>
+    <a href="#partners" class="w3-bar-item w3-button" onclick="toggleFunction()">PARTNERS</a>
     <a href="#" class="w3-bar-item w3-button">SEARCH</a>
   </div>
 </div>
@@ -231,6 +255,26 @@ body, html {
       </div>
     </div>
   </div>
+
+  <!-- Fourth Parallax Image with Portfolio Text -->
+  <div class="bgimg-3 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+       <span class="w3-xxlarge w3-text-white w3-wide">PARTNERS</span>
+    </div>
+  </div>
+
+  <div class="w3-content w3-container w3-padding-64" id="partners">
+    <h3 class="w3-center">PARTNERS</h3>
+    <p class="w3-center"><em>I'd love your partnership!</em></p>
+    <div class="w3-col m4 w3-container">
+      <img src="https://cdn.discordapp.com/attachments/418197159255736320/520373207388389386/hand-shake.png" class="w3-image w3-round" style="width:100%">
+    </div>
+      <div class="w3-col m8 w3-panel">
+        <div class="w3-large w3-marginn-bottom">
+          <a href="partners.html" target="_blank">Click here for more info</a>
+        </div>
+      </div>
+    </div>
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
