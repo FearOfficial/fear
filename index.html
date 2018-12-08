@@ -104,6 +104,8 @@ body, html {
 
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> COMMANDS</a>
 
+    <a href="#commands2" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"</i> MORE COMMANDS</a>
+
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
 
     <a href="#patreon" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-dollar"></i> PATREON</a>
@@ -125,6 +127,10 @@ body, html {
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
 
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+
+    <a href="#commands" class="w3-bar-item w3-button" onclick="toggleFunction()">COMMANDS</a>
+
+    <a href="#commands2" class="w3-bar-item w3-button" onclick="toggleFunction()">MORE COMMANDS</a>
 
     <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
 
@@ -274,7 +280,7 @@ body, html {
 
 <!-- Container (Portfolio Section) -->
 
-<div class="w3-content w3-container w3-padding-64" id="portfolio">
+<div class="w3-content w3-container w3-padding-64" id="commands">
 
   <h3 class="w3-center">MY COMMANDS</h3>
 
@@ -351,21 +357,43 @@ body, html {
 
 
     <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+
+  </div>
+
+</div>
+
+<div class="w3-content w3-container w3-padding-64" id="commands">
+
+  <h3 class="w3-center">MY COMMANDS</h3>
+
+  <p class="w3-center"><em>Here are some of my latest and greatest commands available.<br> Click on the images to make them bigger</em></p><br>
+
+
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+
+  <div class="w3-row-padding w3-center">
+
     <div class="w3-col m3">
 
-      <img src="https://cdn.discordapp.com/attachments/418197159255736320/520784293811716107/unknown.png" style="width:100" onclick="onClick(this)" class="w3-hover-opacity" alt="Moderation Commands">
+      <img src="https://cdn.discordapp.com/attachments/418197159255736320/520784293811716107/unknown.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Moderation Commands">
 
     </div>
+
     <div class="w3-col m3">
 
       <img src="https://cdn.discordapp.com/attachments/418197159255736320/520784616836038658/unknown.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Image Commands">
 
     </div>
+
+    <div class="w3-row-padding w3-center">
+
+
+    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+
   </div>
 
 </div>
-
-
 
 <!-- Modal for full size images on click-->
 
