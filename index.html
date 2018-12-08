@@ -102,7 +102,7 @@ body, html {
 
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
 
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> COMMANDS</a>
+    <a href="#commands" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> COMMANDS</a>
 
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
 
@@ -286,92 +286,219 @@ body, html {
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
 
-  <div class="w3-row-padding w3-center">
-
-    <div class="w3-col m3">
-
-      <img src="https://cdn.discordapp.com/attachments/418197159255736320/520784014861402133/unknown.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="General and Admin Commands">
-
-    </div>
-
-
-
-    <div class="w3-col m3">
-
-      <img src="https://cdn.discordapp.com/attachments/418197159255736320/520011316359069697/unknown.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Util Item and Math Commands">
-
-    </div>
-
-
-
-    <div class="w3-col m3">
-
-      <img src="https://cdn.discordapp.com/attachments/418197159255736320/520011461838241792/unknown.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Random Commands">
-
-    </div>
-
-
-
-    <div class="w3-col m3">
-
-      <img src="https://cdn.discordapp.com/attachments/418197159255736320/520011587818356746/unknown.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Single Commands">
-
-    </div>
-
-  </div>
-
-
-  </div>
-
-  <div class="w3-row-padding w3-center w3-section">
-
-    <div class="w3-col m3">
-
-      <img src="https://cdn.discordapp.com/attachments/418197159255736320/520011747923329024/unknown.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Text edit Commands">
-
-    </div>
-
-
-
-    <div class="w3-col m3">
-
-      <img src="https://cdn.discordapp.com/attachments/418197159255736320/520011900591931403/unknown.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Stats and Economy Commands">
-
-    </div>
-
-
-
-    <div class="w3-col m3">
-
-      <img src="https://cdn.discordapp.com/attachments/418197159255736320/520013319046692864/unknown.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Music Commands">
-
-    </div>
-
-</div>
-
-<div class="w3-content w3-container w3-padding-64" id="commands">
-
-  <h3 class="w3-center">MORE COMMANDS</h3>
-
-  <p class="w3-center"><em>Here are some more of my latest and greatest commands available.<br> Click on the images to make them bigger</em></p><br>
-
-
-
-  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-
-  <div class="w3-row-padding w3-center">
-
-    <div class="w3-col m3">
-
-      <img src="https://cdn.discordapp.com/attachments/418197159255736320/520784293811716107/unknown.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Moderation Commands">
-
-    </div>
-
-    <div class="w3-col m3">
-
-      <img src="https://cdn.discordapp.com/attachments/418197159255736320/520784616836038658/unknown.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Image Commands">
-
-    </div>
+  <p class="w3-center"><em>
+General: <br>
+help: Displays a list of available commands, or detailed information for a specified command. <br>
+<br>
+Admin: <br>
+ahelp: shows the admin help menu <br>
+disable: Disables a command or command group. <br>
+enable: Enables a command or command group. <br>
+message: Enables or disables the levelup message. <br>
+prefix: Shows or sets the command prefix. <br>
+reward: Manages the reward system <br>
+update: Updates all user reward roles on this server. Fixes missing roles. <br>
+<br>
+Moderation: <br>
+kick {@user} <br>
+ban {@user} <br>
+hugban {@user} : softban removing 7 days of messages <br>
+<br>
+Util: <br>
+user-info: Gets information about a user. <br>
+blacklist-user: Prohibit a user from using commando <br>
+bot-info: Responds with detailed bot information. <br>
+channel: Gets information about a channel. <br>
+launch-cybernuke: Bans all members that have joined recently, with new accounts. <br>
+remindme: Reminds you of something. <br>
+ridea: Creates a random idea. <br>
+search: Searches google. <br>
+server-info: Gets information about a server. <br>
+split: Sends split messages with a specific total length. <br>
+strawpoll: Create a strawpoll. <br>
+weather: Responds with detailed weather. <br>
+whitelist-user: Remove a user from the blacklist <br>
+<br>
+Item: <br>
+item-add: Adds an item to the store. <br>
+buy-item: Buys an item at the store. <br>
+give: Give your items to another user. <br>
+item-info: Displays price of an item. <br>
+inventory: Displays the items you have in your inventory <br>
+store: Displays price of all items. <br>
+item-trade: Trade items with another user. <br>
+<br>
+Math: <br>
+add-numbers: Adds numbers together. <br>
+<br>
+Tags: <br>
+add-example: Adds an example. <br>
+add-server-tag: Adds a server tag. <br>
+add-tag: Adds a tag. <br>
+delete-tag: Deletes a tag. <br>
+tag-info: Displays information about a tag. <br>
+tag-list-all: Lists all tags. <br>
+tag-list: Lists all server tags. <br>
+tag-source: Displays a tags source. <br>
+tag: Displays a tag. <br>
+<br>
+Random: <br>
+advice-slip: Responds with a random bit of advice. <br>
+bird: Responds with a random bird image. <br>
+cat-fact: Responds with a random cat fact. <br>
+cat: Responds with a random cat image. <br>
+charlie-charlie-challenge: Asks your question to Charlie. <br>
+choose: Chooses between options you provide. <br>
+chuck-norris: Responds with a random Chuck Norris joke. <br>
+coin: Flips a coin. <br>
+compliment: Compliments a user. <br>
+discord-email-fun-fact: Responds with a random fun fact from the Discord emails. <br>
+dog-fact: Responds with a random dog fact. <br>
+dog: Responds with a random dog image. <br>
+draw-cards: Draws a random hand of playing cards. <br>
+duck: Responds with a random duck image. <br>
+fact-core: Responds with a random Fact Core quote. <br>
+fact: Responds with a random fact. <br>
+fidget: Responds with a random image of Fidget. <br>
+fortune: Responds with a random fortune. <br>
+fox: Responds with a random fox image. <br>
+github-zen: Responds with a random GitHub design philosophy. <br>
+joke: Responds with a random joke. <br>
+karen: Responds with a random image of Karen. <br>
+kiss-marry-kill: Determines who to kiss, who to marry, and who to kill. <br>
+magic-conch: Asks your question to the Magic Conch. <br>
+meme: Responds with a random meme. <br>
+name: Responds with a random name, with the gender of your choice. <br>
+number-fact: Responds with a random fact about a specific number. <br>
+offspring: Determines if your new child will be a boy or a girl. <br>
+opinion: Determines the opinion on something. <br>
+oracle-turret: Responds with a random Oracle Turret quote. <br>
+pun: Responds with a random pun. <br>
+quantum-coin: Flips a coin that lands on some form of nothing. <br>
+quote: Responds with a random quote. <br>
+rate: Rates something. <br>
+reddit: Responds with a random post from a subreddit. <br>
+roast: Roasts a user. <br>
+roll: Rolls a dice with a maximum value of your choice. <br>
+security-key: Responds with a random security key. <br>
+shiba: Responds with a random image of a Shiba Inu. <br>
+shower-thought: Responds with a random shower thought, directly from r/Showerthoughts. <br>
+suggest-command: Suggests a random command for you to try. <br>
+superpower: Responds with a random superpower. <br>
+this-for-that: So, basically, it's like a bot command for this dumb meme. <br>
+user-roulette: Randomly chooses a member of the server. <br>
+would-you-rather: Responds with a random "Would you rather ...?" question. <br>
+<br>
+Single: <br>
+can-you-not: Can YOU not? <br>
+dark-theme-light-theme: Determines whether you use dark or light theme. <br>
+eat-pant: Eat pant. <br>
+eggs-get-laid: Sends the ultimate roast. <br>
+fly: Sends a fake fly that looks surprisngly real. <br>
+give-flower: Gives Purified a flower. <br>
+hi: Hello. <br>
+isnt-joke: Isn't joke... <br>
+its-joke: It's joke! <br>
+just-do-it: Sends a link to the "Just Do It!" motivational speech. <br>
+lenny: Responds with the lenny face. <br>
+spam: Responds with a picture of Spam. <br>
+tableflip: Flips a table... With animation! <br> <br>
+wynaut: Why not? Wynaut? <br>
+<br>
+Text-edit: <br>
+alphabet-reverse: Reverses the alphabet of text. <br>
+base64: Converts text to/from Base64. <br>
+binary: Converts text to/from binary. <br>
+braille: Converts text to braille. <br>
+brony-speak: Converts text to brony speak. <br>
+clap: Sends :clap: text :clap: like :clap: this. <br>
+cow-say: Makes a cow say your text. <br>
+cursive: Converts text to cursive. <br>
+dvorak: Converts text to Dvorak encoding. <br>
+emojify: Converts text to emoji form. <br>
+fancy: Converts text to fancy letters. <br>
+hex: Converts text to hex. <br>
+latlmes: Creates a Latlmes fake link that redirects to a rickroll. <br>
+lmgtfy: Creates a LMGTFY link with the query you provide. <br>
+lowercase: Converts text to lowercase. <br>
+md5: Creates a hash of text with the MD5 algorithm. <br>
+mocking: SenDs TexT lIkE ThiS. <br>
+morse: Converts text to morse code. <br>
+organization-xiii-name: Converts a name into the Organization XIII style. <br>
+owo: OwO. <br>
+pig-latin: Converts text to pig latin. <br>
+pirate: Converts text to pirate. <br>
+portal-send: Send a message to a portal channel. <br>
+repeat: Repeat text over and over and over and over (etc). <br>
+reverse: Reverses text. <br>
+say: Make me say what you want, master. <br>
+sha-1: Creates a hash of text with the SHA-1 algorithm. <br>
+sha-256: Creates a hash of text with the SHA-256 algorithm. <br>
+ship-name: Creates a ship name from two names. <br>
+shorten-url: Creates a goo.gl short URL from another URL. <br>
+shuffle: Shuffles text. <br>
+snake-speak: Convertsssss text to sssssnake ssssspeak. <br>
+superscript: Converts text to tiny text. <br>
+temmie: Converts text to Temmie speak. <br>
+translate: Translates text to a specific language. <br>
+uppercase: Converts text to uppercase. <br>
+upside-down: Flips text upside-down. <br>
+url-encode: Encodes text to URL-friendly characters. <br>
+webhook: Posts a message to the webhook defined in the bot owner's process.env. <br>
+yoda: Converts text to Yoda speak. <br>
+zalgo: Converts text to zalgo. <br>
+<br>
+Stats: <br>
+userstats <br>
+<br>
+Economy Stuff: <br>
+guild <br>
+daily <br>
+money <br>
+<br>
+Music: <br>
+play: Queues some music <br>
+queue: Shows the queue <br>
+pause: Pauses the music <br>
+resume: Resumes the music <br>
+stop: Stops the music <br>
+skip: Skips the music <br>
+volume {number}: Changes the volume <br>
+np: Shows the currently playing song <br>
+<br>
+Image: <br>
+owo <br>
+baka <br>
+triggered <br>
+pout <br>
+awoo <br>
+blush <br>
+neko <br>
+sleepy <br>
+smile <br>
+greet <br>
+wag <br>
+cat <br>
+jojo <br>
+meow <br>
+avatar {@user} <br>
+dance <br>
+hug {@user} <br>
+cry <br>
+nom <br>
+dab <br>
+poi <br>
+shoot {@user} <br>
+cuddle {@user} <br>
+tickle {@user} <br>
+kiss {@user} <br>
+punch {@user} <br>
+pat {@user} <br>
+slap {@user} <br>
+likc {@user} <br>
+poke {@user} <br>
+<br>
+</em></p>
 
 </div>
 
