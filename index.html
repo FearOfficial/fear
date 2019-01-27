@@ -1,298 +1,91 @@
-<!DOCTYPE html>
-
+<!DOCTYPE HTML>
 <html>
-<head>
-  <link rel="shortcut icon"  href="ico/favicon.ico">
-  <link rel="apple-touch-icon"  href="ico/favicon.png">
-  <link rel="icon" sizes="192x192" href="ico/favicon.png">
-  <link  id="favicon" href="~/favicon.png" rel="shortcut icon" type="ico/favicon"  />
-  <title>Purified Bot</title>
-</head>
-
-<meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
-
-body, html {
-
-    height: 100%;
-
-    color: #777;
-
-    line-height: 1.8;
-
-}
-/* Create a Parallax Effect */
-
-.bgimg-1, .bgimg-2, .bgimg-3 {
-
-    background-attachment: fixed;
-
-    background-position: center;
-
-    background-repeat: no-repeat;
-
-    background-size: cover;
-
-}
-
-/* First image (Logo. Full height) */
-
-.bgimg-1 {
-
-    background-image: url('https://cdn.discordapp.com/attachments/418197159255736320/519308360734998528/12468-christmas.png');
-
-    min-height: 100%;
-}
-
-/* Second image (Portfolio) */
-
-.bgimg-2 {
-
-    background-image: url("https://cdn.discordapp.com/attachments/418197159255736320/519308360734998528/12468-christmas.png");
-
-    min-height: 400px;
-}
-
-/* Third image (Contact) */
-
-.bgimg-3 {
-
-    background-image: url("https://cdn.discordapp.com/attachments/418197159255736320/519308360734998528/12468-christmas.png");
-
-    min-height: 400px;
-}
-
-.w3-wide {letter-spacing: 10px;}
-
-.w3-hover-opacity {cursor: pointer;}
-
-/* Turn off parallax scrolling for tablets and phones */
-
-@media only screen and (max-device-width: 1600px) {
-
-    .bgimg-1, .bgimg-2, .bgimg-3 {
-
-        background-attachment: scroll;
-
-        min-height: 400px;
-    }
-}
-
-</style>
-
-<body>
-<!-- Navbar (sit on top) -->
-
-<div class="w3-top">
-
-  <div class="w3-bar" id="myNavbar">
-
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-
-      <i class="fa fa-bars"></i>
-
-    </a>
-
-    <a href="#home" class="w3-bar-item w3-button">HOME</a>
-
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-
-    <a href="#commands" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> COMMANDS</a>
-
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-
-    <a href="#patreon" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-dollar"></i> PATREON</a>
-
-    <a href="#partners" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-handshake-o"></i> PARTNERS</a>
-
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-
-      <i class="fa fa-search"></i>
-
-    </a>
-
-  </div>
-
-
-
-  <!-- Navbar on small screens -->
-
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-
-    <a href="#commands" class="w3-bar-item w3-button" onclick="toggleFunction()">COMMANDS</a>
-
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-
-    <a href="#patreon" class="w3-bar-item w3-button" onclick="toggleFunction()">PATREON</a>
-
-    <a href="#partners" class="w3-bar-item w3-button" onclick="toggleFunction()">PARTNERS</a>
-
-    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
-
-  </div>
-
-</div>
-
-
-
-<!-- First Parallax Image with Logo Text -->
-
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-
-  <div class="w3-display-middle" style="white-space:nowrap;">
-
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Purified<span class="w3-hide-small"> Bot</span>
-
-  </div>
-
-</div>
-
-
-
-<!-- Container (About Section) -->
-
-<div class="w3-content w3-container w3-padding-64" id="about">
-
-  <h3 class="w3-center">ABOUT ME</h3>
-
-  <p class="w3-center"><em>I love fun and music!</em></p>
-
-  <p>Hi. My name is Purified, I'm a multi-purpose Discord bot for all to use! I come jam packed with all sorts of fun and exciting things, such as music, text manipulation, image commands, and even a smidge of moderation!
-
-  I'm excited that you decided to check me out and took your time reading this! I wish you a wonderful day and a fun and jolly time!</p>
-
-  <div class="w3-row">
-
-    <div class="w3-col m6 w3-center w3-padding-large">
-
-      <p><b><i class="fa fa-user w3-margin-right"></i>Purified</b></p><br>
-
-      <img src="https://cdn.discordapp.com/attachments/418197159255736320/519308360734998528/12468-christmas.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
-
-    </div>
-
-
-
-    <!-- Hide this text on small devices -->
-
-    <div class="w3-col m6 w3-hide-small w3-padding-large">
-
-      <p>Welcome to my landing zone! This is where all the magic begins.. Have Fun!</p>
-
-    </div>
-
-  </div>
-
-  <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
-
-  <p class="w3-wide"><i class="fa fa-camera"></i>Fun Image Things</p>
-
-  <div class="w3-light-grey">
-
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
-
-  </div>
-
-  <p class="w3-wide"><i class="fa fa-laptop"></i>Gathering info and more</p>
-
-  <div class="w3-light-grey">
-
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
-
-  </div>
-
-  <p class="w3-wide"><i class="fa fa-photo"></i>Making things interesting</p>
-
-  <div class="w3-light-grey">
-
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
-
-  </div>
-
-</div>
-
-
-
-<div class="w3-row w3-center w3-dark-grey w3-padding-16">
-
-  <div class="w3-quarter w3-section">
-
-    <span class="w3-xlarge">40000+</span><br>
-
-    Users
-
-  </div>
-
-  <div class="w3-quarter w3-section">
-
-    <span class="w3-xlarge">430+</span><br>
-
-    Servers
-
-  </div>
-
-  <div class="w3-quarter w3-section">
-
-    <span class="w3-xlarge">94%</span><br>
-
-    Happy
-
-  </div>
-
-  <div class="w3-quarter w3-section">
-
-    <span class="w3-xlarge">1</span><br>
-
-    Devloper(s)
-
-  </div>
-
-</div>
-
-
-
-<!-- Second Parallax Image with Portfolio Text -->
-
-<div class="bgimg-2 w3-display-container w3-opacity-min">
-
-  <div class="w3-display-middle">
-
-    <span class="w3-xxlarge w3-text-white w3-wide">COMMANDS</span>
-
-  </div>
-
-</div>
-
-
-
-<!-- Container (Portfolio Section) -->
-
-<div class="w3-content w3-container w3-padding-64" id="commands">
-
-  <h3 class="w3-center">MY COMMANDS</h3>
-
-  <p class="w3-center"><em>Here are some of my latest and greatest commands available.<br>Params Key:<br>{} = Required | [] =  Optional<br></em></p><br>
-
-
-
-  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-
-  <p class="w3-center"><em>
-General: <br>
+	<head>
+		<title>Purified Bot</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+	</head>
+	<body id="top">
+
+		<!-- Header -->
+			<header id="header" class="skel-layers-fixed">
+				<h1><a href="#">Purified™</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="patreon.html">Patreon</a></li>
+						<li><a href="bot-sites.html">Bot listing websites~!</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<h2>This is Purified</h2>
+					<p>A free responsive bot by ♡ yliL ♡#8144</p>
+					<ul class="actions">
+					</ul>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper style1">
+				<header class="major">
+					<h2>Statistics</h2>
+					<p>This is general statistics from Purified</p>
+				</header>
+				<div class="container">
+					<div class="row">
+						<div class="4u">
+							<section class="special box">
+								<i class="icon fa-area-chart major"></i>
+								<h3>400+</h3>
+								<p>This bot is currently in 400+ servers~!</p>
+							</section>
+						</div>
+						<div class="4u">
+							<section class="special box">
+								<i class="icon fa-refresh major"></i>
+								<h3>Refreshing content</h3>
+								<p>Amazing content brought to you by Purified</p>
+							</section>
+						</div>
+						<div class="4u">
+							<section class="special box">
+								<i class="icon fa-cog major"></i>
+								<h3>TONS of commands</h3>
+								<p>Over 130+ commands to offer</p>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+		<!-- Two -->
+			<section id="two" class="wrapper style2">
+				<header class="major">
+					<h2>Commands</h2>
+					<p>My amazing commands below | -v-</p>
+				</header>
+				<div class="container">
+					<div class="row">
+						<div class="6u">
+							<section class="special">
+								<a href="#" class="image fit"><img src="https://cdn.discordapp.com/attachments/418197159255736320/538505166652047390/terminal.png" alt="" /></a>
+								<h3>Isn't this amazing?~</h3>
+								<p>General: <br>
 help: Displays a list of available commands, or detailed information for a specified command. <br>
 <br>
 Admin: <br>
@@ -331,7 +124,7 @@ Math: <br>
 add-numbers: Adds numbers together. <br>
 <br>
 Random: <br>
-send: send a user of your choice a message with the bot: `=send @User#1234 hello` <br>
+send: send a user of your choice a message with the bot: =send @User#1234 hello <br>
 8ball: Responds with a random response. <br>
 advice-slip: Responds with a random bit of advice. <br>
 bird: Responds with a random bird image. <br>
@@ -493,222 +286,46 @@ punch {@user} <br>
 pat {@user} <br>
 slap {@user} <br>
 lick {@user} <br>
-poke {@user} <br>
-
-</em></p>
-
-</div>
-
-<!-- Modal for full size images on click-->
-
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-
-  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-
-    <img id="img01" class="w3-image">
-
-    <p id="caption" class="w3-opacity w3-large"></p>
-
-  </div>
-
-</div>
-
-
-
-<!-- Third Parallax Image with Portfolio Text -->
-
-<div class="bgimg-3 w3-display-container w3-opacity-min">
-
-  <div class="w3-display-middle">
-
-     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
-
-  </div>
-
-</div>
-
-
-
-<!-- Container (Contact Section) -->
-
-<div class="w3-content w3-container w3-padding-64" id="contact">
-
-  <h3 class="w3-center">WHERE I WORK</h3>
-
-  <p class="w3-center"><em>I'd love your feedback!</em></p>
-
-
-
-  <div class="w3-row w3-padding-32 w3-section">
-
-    <div class="w3-col m4 w3-container">
-
-      <img src="https://cdn.discordapp.com/attachments/418197159255736320/520032091098841100/488450510643396630.gif" class="w3-image w3-round" style="width:100%">
-
-    </div>
-
-    <div class="w3-col m8 w3-panel">
-
-      <div class="w3-large w3-margin-bottom">
-
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Georgia, US<br>
-
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: asunabns.co@gmail.com<br>
-
-      </div>
-
-      <p>Swing by for a cup of <i class="fa fa-coffee"></i></p>
-
-    </div>
-
-  </div>
-
-</div>
-
-
-
-<div class="w3-content w3-container w3-padding-64" id="patreon">
-
-  <h3 class="w3-center">SUPPORT ME</h3>
-
-  <p class="w3-center"><em>I'd love your support!</em></p>
-
-  <div class="w3-col m4 w3-container">
-
-    <img src="https://cdn.discordapp.com/attachments/418197159255736320/520367755346575370/patreon-logo.jpg" class="w3-image w3-round" style="width:100%">
-
-  </div>
-
-    <div class="w3-col m8 w3-panel">
-
-      <div class="w3-large w3-marginn-bottom">
-
-        <a href="https://www.patreon.com/bePatron?u=14017189" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
-
-      </div>
-
-    </div>
-
-  </div>
-
-
-  <!-- Fourth Parallax Image with Portfolio Text -->
-
-  <div class="bgimg-3 w3-display-container w3-opacity-min">
-
-    <div class="w3-display-middle">
-
-       <span class="w3-xxlarge w3-text-white w3-wide">PARTNERS</span>
-
-    </div>
-
-  </div>
-
-
-
-  <div class="w3-content w3-container w3-padding-64" id="partners">
-
-    <h3 class="w3-center">PARTNERS</h3>
-
-    <p class="w3-center"><em>I'd love your partnership!</em></p>
-
-    <div class="w3-col m4 w3-container">
-
-      <img src="https://cdn.discordapp.com/attachments/418197159255736320/520373207388389386/hand-shake.png" class="w3-image w3-round" style="width:100%">
-
-    </div>
-
-      <div class="w3-col m8 w3-panel">
-
-        <div class="w3-large w3-marginn-bottom">
-
-          <a href="http://partners.purifiedbot.com/" target="_self">Click here for more info</a>
-
-        </div>
-
-      </div>
-
-    </div>
-
-
-
-<!-- Footer -->
-
-<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-
-  <p>Powered by <a href="https://discordapp.com/" title="Purified Bot, brought to you by Discord" target="_blank" class="w3-hover-text-green">♡ December ♡#8144 on Discord</a></p>
-
-  <a href="https://discordbots.org/bot/417800930474590210" >
-  <img src="https://discordbots.org/api/widget/417800930474590210.svg" alt="🎄 Purified™" />
-  </a>
-</footer>
-
-
-
-<script>
-
-// Modal Image Gallery
-
-function onClick(element) {
-
-  document.getElementById("img01").src = element.src;
-
-  document.getElementById("modal01").style.display = "block";
-
-  var captionText = document.getElementById("caption");
-
-  captionText.innerHTML = element.alt;
-
-}
-
-
-
-// Change style of navbar on scroll
-
-window.onscroll = function() {myFunction()};
-
-function myFunction() {
-
-    var navbar = document.getElementById("myNavbar");
-
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-
-        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-
-    } else {
-
-        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-
-    }
-
-}
-
-// Used to toggle the menu on small screens when clicking on the menu button
-
-function toggleFunction() {
-
-    var x = document.getElementById("navDemo");
-
-    if (x.className.indexOf("w3-show") == -1) {
-
-        x.className += " w3-show";
-
-    } else {
-
-        x.className = x.className.replace(" w3-show", "");
-
-    }
-
-}
-
-</script>
-
-
-
-</body>
-
+poke {@user} <br></p>
+								<ul class="actions">
+								</ul>
+							</section>
+						</div>
+						<div class="6u">
+							<section class="special">
+								<a href="#" class="image fit"><img src="https://cdn.discordapp.com/attachments/418197159255736320/538890496374997004/pic02.jpg" alt="" /></a>
+								<h3>More about me~!</h3>
+								<p>Purified™ is a community built bot, all ideas from this bot came from the wonderful community! If you have an idea for the bot, you can use the founder command and DM her with an idea you would like her to add. Purified™ is a lover, she won't let ya die.. I think.. Anyway.. Have a good one! ♥ ♥</p>
+								<ul class="actions">
+								</ul>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Three -->
+			<section id="three" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="8u">
+							<section>
+								<h2>Some wonderful images and links below (;^^;)</h2>
+								<a href="#" class="image fit"><img src="https://cdn.discordapp.com/attachments/418197159255736320/519308360734998528/12468-christmas.png" alt="" /></a>
+							</section>
+						</div>
+						<div class="4u">
+							<section>
+								<h3>Where can you find me?</h3>
+								<p>You can find me on several bot listing websites~! I'm almost everywhere!!. Click the left navigation button and clikc what you're looking for <br>Can't find what you're looking for?: <br>Request it! Add the site manager (located at the top of the page) and request something to be added to the website!</p>
+								<ul class="actions">
+								</ul>
+							</section>
+							<hr />
+						</div>
+					</div>
+				</div>
+			</section>			
+
+	</body>
 </html>
