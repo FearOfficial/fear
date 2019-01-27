@@ -1,6 +1,14 @@
-h1 {
-  font-size: 72px;
-  background: linear-gradient(-160deg, #ff0058, #673ab7);
-  -webkit-background-clip: text;
+h2
+{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(to right, #f32170, #ffeb07, #2196f3, #ff00eb);
   -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
