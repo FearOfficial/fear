@@ -1,38 +1,51 @@
-@import "nib"
 
-html, body {
+
+HTML, BODY {
   height: 100%;
-  overflow: hidden;
+  }
+
+$colors: #360745, #D61C59, #E7D84B, #EFEAC5, #1B8798;
+
+BODY {
+  background: hsl(200,70,11);
+  background-size: .12em 100%;
+  font: 16em/1 Arial;
 }
-body {
-  transform: rotate(-5deg);
-  background: radial-gradient(center, crimson, darken(crimson, 60%));
-}
-.slashed {
-  absolute: top 0 left 0 right 0 bottom 0;
-  text-shadow: 3px 3px 3px rgba(black, 0.5);
-  .top, .bot {
-    text-align: center;
-    font: 62px/100px arial;
-    text-transform: uppercase;
-    text-align: center;
-    overflow: hidden;
-    color: white;
-    &:before {
-      content: attr(title);
-      transform: rotate(5deg);
+
+.text--line {
+  font-size: .5em;
+  }
+
+svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  }
+
+$max: 5;
+$stroke-step: 7%; 
+.text-copy {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: $stroke-step $stroke-step * ($max - 1);
+  stroke-width: 3px;
+  
+  animation: stroke-offset 9s infinite linear;
+  
+  @for $item from 1 through $max {
+    $stroke-color: nth($colors, $item);
+    
+    &:nth-child(#{$item}) {
+      stroke: $stroke-color;
+      stroke-dashoffset: $stroke-step * $item;
+      }
     }
   }
-  .top {
-    absolute: top 0 left 5px right 0 bottom 50%;
-    &:before {
-      absolute: bottom -50px left 0 right 0;
-    }
-  }
-  .bot {
-    absolute: top 50% left 0 right 5px bottom 0;
-    &:before {
-      absolute: top -50px left 0 right 0;
-    }
+
+@keyframes stroke-offset {
+  50% {
+    stroke-dashoffset: $stroke-step * $max;  
+    stroke-dasharray: 0 $stroke-step * $max*2.5;
   }
 }
+
