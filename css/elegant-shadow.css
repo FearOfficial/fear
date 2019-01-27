@@ -1,4 +1,6 @@
-.text-shadow-preview{ 
-    text-shadow: 10px 12px 12px;\
-    color: #fff;
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#ff0058, #673ab7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
