@@ -3015,7 +3015,7 @@ div.form-inner, .form-actions {
 /* Search */
 
 /* .esc-text:after,.keybind-KpFkfr:after {
-  content: "Made By NFLD99";
+  content: "Made By Fear";
   font-size: 15px;
 } */
 /* water marks */
@@ -3025,11 +3025,11 @@ div.form-inner, .form-actions {
 }
 
 #app-mount > div > div > div.layers-3iHuyZ.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.spacer-1fA9zc > div > div > div.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.base-3dtUhz > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.spacer-29U_x8.firefoxFixScrollFlex-cnI2ix > div.channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr > div.container-2Thooq > div.accountDetails-3k9g4n.nameTag-m8r81H > .discriminator-3W31ZY:after {
-  content: "  NFLD99.com  " !important;
+  content: "  Fear  " !important;
 }
 
 #app-mount > div > div > div > div > div > div > div > div > div > div > .discriminator-3W31ZY:after {
-  content: "  NFLD99.com  " !important;
+  content: "  Fear  " !important;
 }
 
 /* water marks */
@@ -3234,7 +3234,7 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.typeWindows-
 }
 
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-19_DXt > div.app-2rEoOp.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr > div.layers-3iHuyZ.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.spacer-1fA9zc > div.layer-3QrUeG + div.layer-3QrUeG > div > div.standardSidebarView-3F1I7i:before {
-	content: "NFLD99.com/" !important;
+	content: "Fear" !important;
 	display: inline !important;
 	position: absolute !important;
 	left: unset !important;
@@ -4355,7 +4355,7 @@ button.btn.btn-default {
 }
 
 .message-group .message .markup-2BOw-j a[href="https://discord.gg/kWRYPrq"]:after, .markup-2BOw-j>a[href="https://discord.gg/kWRYPrq"]:after {
-  content: "NFLD99s Support Server";
+  content: "Fear";
   color: var(--Main-Colour);
   font-size: 15px;
 }
@@ -4801,12 +4801,12 @@ button.btn.btn-default {
   border-bottom-color: var(--Secondary-Main-Colour);
 }
 
-.markup-2BOw-j a[href="https://www.twitch.tv/NFLD99"] {
+.markup-2BOw-j a[href="FEAR"] {
   font-size: 0;
 }
 
-.markup-2BOw-j a[href="https://www.twitch.tv/NFLD99"]:after {
-  content: "NFLD99s Twitch";
+.markup-2BOw-j a[href="FEAR"]:after {
+  content: "Fear";
   color: var(--Main-Colour);
   font-size: 15px;
 }
@@ -4831,28 +4831,28 @@ button.btn.btn-default {
   font-size: 15px;
 }
 
-.markup-2BOw-j a[href="https://github.com/NFLD99/Better-Discord"] {
+.markup-2BOw-j a[href="Fear"] {
   font-size: 0;
 }
 
-.markup-2BOw-j a[href="https://github.com/NFLD99/Better-Discord"]:after {
+.markup-2BOw-j a[href="Fear"]:after {
   content: "NFLD99's repo";
   color: var(--Main-Colour);
   font-size: 15px;
 }
 
-.markup-2BOw-j a[href="https://nfld99.com/"] {
+.markup-2BOw-j a[href="Fear"] {
   font-size: 0;
 }
 
-.markup-2BOw-j a[href="https://nfld99.com/"]:after {
+.markup-2BOw-j a[href="Fear"]:after {
   content: "NFLD99's Website - Home Page";
   color: var(--Main-Colour);
   font-size: 15px;
 }
 
 /* 
-.markup-2BOw-j a[href="https://nfld99.com/main"] {
+.markup-2BOw-j a[href="Fear"] {
   font-size: 0;
 }
 
@@ -8744,7 +8744,7 @@ button.btn.btn-default {
 }
 
 .theme-dark .text-GwUZgS:after {
-  content: " NFLD99.com/Discord";
+  content: " Fear ;)";
   color: var(--Main-Colour);
   font-size: 15px;
 }
@@ -11357,7 +11357,7 @@ html .upperBadge-2XnnGB.count {
   font-size: 16px;
   white-space: pre-wrap;
   text-transform: none;
-  content: "Consider boosting the support server, \a \a \a \a https://nfld99.com/discord"
+  content: "Consider boosting the support server, \a \a \a \a https://discord.gg/XN4THGc"
 }
 
 .theme-dark .tierHeaderLocked-1s2JJz,.theme-dark .tierBody-16Chc9 {
