@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Fear",
-    "currentPage": "learnmore.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -43,7 +43,7 @@
       "settings": {
         "main": true,
         "title": "Home",
-        "meta_descr": "",
+        "meta_descr": "Fear's main website!",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -569,7 +569,7 @@
     },
     "commands.html": {
       "settings": {
-        "meta_descr": "Web Builder Description",
+        "meta_descr": "Fear's Commands >.<",
         "title": "Commands ",
         "order": 2
       },
@@ -1140,7 +1140,7 @@
     },
     "learnmore.html": {
       "settings": {
-        "meta_descr": "Web Builder Description",
+        "meta_descr": "Learn more about fear *insert derp emote here*\n",
         "title": "Learn More",
         "order": 1
       },
