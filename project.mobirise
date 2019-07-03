@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Fear",
-    "currentPage": "commands.html",
+    "currentPage": "learnmore.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1138,7 +1138,7 @@
         }
       ]
     },
-    "page2.html": {
+    "learnmore.html": {
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Learn More",
