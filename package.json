@@ -1,0 +1,44 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "fear.js",
+  "scripts": {
+    "start": "node fear.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "taihou": "^2.0.2",
+    "discord.js": "^11.5.1",
+    "dblapi.js": "^2.3.0",
+    "ddblapi.js": "^1.0.0",
+    "fs": "^0.0.2",
+    "mongoose": "^5.6.4",
+    "fortnite": "^4.3.2",
+    "moment": "^2.24.0",
+    "mongodb": "^3.2.6",
+    "korra": "^1.0.1",
+    "common-tags": "^1.8.0",
+    "weather-js": "^2.0.0",
+    "cpu-percentage": "^1.0.3",
+    "cpu-stat": "^2.0.1",
+    "systeminformation": "^4.14.2",
+    "os-utils": "^0.0.14",
+    "os": "^0.1.1"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
