@@ -1,4 +1,9 @@
-    .collapsible {
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}  
+
+.collapsible {
         background-color: #777;
         color: white;
         cursor: pointer;
