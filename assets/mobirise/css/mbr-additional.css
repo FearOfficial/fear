@@ -3,7 +3,10 @@
 
 
 
-
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
 body {
   font-style: normal;
   line-height: 1.5;
