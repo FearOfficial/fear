@@ -279,3 +279,7 @@
         text-shadow: 5px 5px 5px grey;
         font-size: 200%;
       }
+      @viewport {
+        width: device-width ;
+        zoom: 1.0 ;
+      }
