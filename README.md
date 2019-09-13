@@ -14,7 +14,7 @@
 
 ---
 
-[https://fearboat.business.site](The website)
+(https://fearboat.business.site)[Website]
 
 [https://discord.gg/JfWcEFS](Support server)
 
