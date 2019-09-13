@@ -26,7 +26,7 @@
 
 ---
 
-Cow Rick#9081 | [https://discord.gg/9kCnu3w](Their Discord server)
-CLazyFox#6773 | [https://discord.gg/4bcxSy6](Their Discord server)
+Cow Rick#9081 | [Their Discord server](https://discord.gg/9kCnu3w)
+CLazyFox#6773 | [Their Discord server](https://discord.gg/4bcxSy6)
 
 ---
