@@ -27,6 +27,7 @@
 ---
 
 Cow Rick#9081 | [Their Discord server](https://discord.gg/9kCnu3w)
+
 CLazyFox#6773 | [Their Discord server](https://discord.gg/4bcxSy6)
 
 ---
