@@ -1,5 +1,7 @@
 # Hello, I am Fear
 
+![Logo](https://cdn.discordapp.com/attachments/606583050591141927/622094020771971072/fear-logo-90x90.png)
+
 ---
 
 > There are tons of modules and commands such as...
